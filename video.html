@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <title>Video | UI</title>
+</head>
+<body>
+    <h1>NING NANG</h1>
+    <br>
+    <video controls>
+        <source src="video/ninang.mp4" type="video/mp4">
+        <source src="video/ninang.mp4" type="video/ogg">
+    </video>
+
+
+    <br> <br> <br>
+<h4><a href="index.html">Home</a></h4>
+<br> <br> <br>
+
+    <footer>
+        <h3 style="color: #e8491d;">Text me your feedback on whatsapp after listening</h3>
+        
+        <h2>+234 8104223355</h2>
+    </footer>
+
+
+    <script>
+        var video;
+     //     window.addEventListener ('load', init, false);
+     //     window.addEventListener ('click', playpause, false);
+     function playpause () {
+         if (video.paused) {
+             video.play ();
+         } else {
+             video.pause ();
+         }
+     }
+     function init() {
+         video = document.getElementsByTagName ('video') [0];
+         video.play ();
+     }
+    </script>
+
+
+
+
+
+</body>
+</html>
