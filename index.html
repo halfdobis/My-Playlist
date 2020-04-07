@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <title>Audio Api</title>
+</head>
+<body>
+
+    <header>
+        <div class="branding">
+            <h1><span class="highlight" style="color: #e8491d;">My Playlist </span></h1>
+          </div>
+          </header>
+
+          <h2>Hope you enjoy them.</h2>
+
+
+        <div class="container">
+            <div class="box">
+                <h1>Sam Smith</h1>
+    <p>Someone to die for</p>
+    <audio controls>
+        <source src="audio/diefor.mp3" type="audio/mpeg">
+        <source src="audio/diefor.mp3" type="audio/ogg">
+    </audio>
+
+    <p>Fire on fire</p>
+    <audio controls>
+        <source src="audio/fireonfire.mp3" type="audio/mpeg">
+        <source src="audio/fireonfire.mp3" type="audio/ogg">    
+    </audio>
+    </div>
+    
+    <div class="box">
+        <h1>Sia</h1>
+        <p>Helium</p>
+        <audio controls>
+            <source src="audio/helium.mp3" type="audio/mpeg">
+            <source src="audio/helium.mp3" type="audio/ogg">    
+        </audio>
+
+        <p>Dusk to dawn ft Zayn Malik</p>
+        <audio controls>
+            <source src="audio/dusktilldawn.mp3" type="audio/mpeg">
+            <source src="audio/dusktilldawn.mp3" type="audio/ogg">    
+        </audio>
+    </div>
+
+    <div class="box">
+        <h1>Skylar Grey</h1>
+        <p>Everything I need</p>
+        <audio controls>
+            <source src="audio/everything.mp3" type="audio/mpeg">
+            <source src="audio/everything.mp3" type="audio/ogg">
+        </audio>
+    </div>
+
+    <div class="box">
+        <h1>Aurora</h1>
+        <p>5.4.3.2.1</p>
+        <audio controls>
+            <source src="audio/5.4.3.2.1.mp3" type="audio/mpeg">
+            <source src="audio/5.4.3.2.1.mp3" type="audio/ogg">
+        </audio>
+    </div>
+
+    <div class="box">
+        <h1>Odesza ft Sasha Sloan</h1>
+        <p>Falls</p>
+        <audio controls>
+            <source src="audio/Falls.mp3" type="audio/mpeg">
+            <source src="audio/Falls.mp3" type="audio/ogg">
+        </audio>
+    </div>
+
+    <div class="box">
+        <h1>NONONO</h1>
+        <p>Pumpin blood</p>
+        <audio controls>
+            <source src="audio/pumpinblood.mp3" type="audio/mpeg">
+            <source src="audio/pumpinblood.mp3" type="audio/ogg">
+        </audio>
+    </div>
+
+    <div class="box">
+        <h1>Soar</h1>
+        <p>Instrumental</p>
+        <audio controls>
+            <source src="audio/Soar.mp3" type="audio/mpeg">
+            <source src="audio/Soar.mp3" type="audio/ogg">
+        </audio>
+    </div>
+    
+    </div>
+
+<br> <br> <br>
+<br> <br> <br>
+
+    <footer>
+        <h3 style="color: #e8491d;">Text me your feedback on whatsapp after listening</h3>
+        
+        <h2>+234 8104223355</h2>
+    </footer>
+
+
+
+
+
+    <script>
+        var audio;
+     //     window.addEventListener ('load', init, false);
+     //     window.addEventListener ('click', playpause, false);
+     function playpause () {
+         if (audio.paused) {
+             audio.play ();
+         } else {
+             audio.pause ();
+         }
+     }
+     function init() {
+         audio = document.getElementsByTagName ('audio') [0];
+         audio.play ();
+     }
+    </script>
+</body>
+</html>
