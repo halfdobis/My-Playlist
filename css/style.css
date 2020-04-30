@@ -65,3 +65,10 @@ video {
 	}
    
  }
+
+ footer {
+    padding: 1em 0em 1em 0em;
+	text-align: center;
+	background-color:slategrey;
+  }
+  
