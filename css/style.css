@@ -66,9 +66,21 @@ video {
    
  }
 
+ 
+
+
+ .social_media img {
+    width: 2rem;
+    margin: 0 .4em 0 .4em;
+  }
+
  footer {
     padding: 1em 0em 1em 0em;
 	text-align: center;
 	background-color:slategrey;
   }
-  
+ 
+  footer a {
+    text-decoration: none;
+    color: #3c9f8f;
+  }
