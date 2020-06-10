@@ -38,11 +38,15 @@ h4 {
 	margin: 0 auto;
 	flex-wrap: wrap;
 	justify-content: center;
-  }
+  } 
+
+  .selector-for-some-widget {
+	box-sizing: content-box;
+  } 
 
   .box {
 	padding: 30px;
-	background: #fff;
+	background: #f5f5f5;
 	width: 350px;
 	border-radius: 5px;
 	margin: 15px;
@@ -54,8 +58,14 @@ h4 {
 video {
 	width: 300px;
 	height: 250px;
-
 }
+
+.name {
+	opacity: 0.6;
+	font-weight: normal;
+	line-height: 12px;
+	font-size: 12px;
+  }
 
 
  /* Media Queries */
